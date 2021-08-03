@@ -1,0 +1,25 @@
+{
+  "name": "epicscrapping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "node scrapeProductPage.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "date-fns": "^2.22.1",
+    "flatted": "^3.1.1",
+    "levenshteind": "^1.1.0",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^10.0.0",
+    "saveimagetodisk": "^1.0.1",
+    "savejsontofile": "^1.2.1",
+    "slugify": "^1.5.3"
+  }
+}
